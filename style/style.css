@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.imgPerfil{
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+
+}
+header{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    position: relative;
+    font-size: 20px;
+
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2018/04/23/21/https://img.freepik.com/fotos-gratis/close-up-na-deliciosa-tigela-de-cereal-de-acai_23-2149258907.jpg?w=1380&t=st=1663290248~exp=1663290848~hmac=1e827c917af228b00db71cb3685c181e1ca47f93f17f31a57b71a74f2faa001e/acai-3345495_960_720.jpg) fixed no-repeat; 
+    background-size: 100%;
+    /* background-color: blueviolet; */
+    margin: 30px;
+    text-align: center;
+    align-items: center;
+}
+section{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: calc(100% - 40px);
+    max-width: 500px;
+}
+.titulo {
+    font-size: 60px;
+    color: antiquewhite;
+}
+.titulo::first-letter{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.botoes{
+    border: solid 5px rgb(219, 211, 162);
+    border-radius: 30px;
+    color: rgb(31, 31, 65);
+    background-color: rgb(235, 227, 234);
+    flex: row;
+    padding: 20px;
+    margin: 10px;
+
+}
+.grupoBotoes h2:hover{
+    border: solid 5px gold;
+    border-radius: 30px;
+    color: rgb(31, 31, 65);
+    background-color: rgb(146, 68, 142);
+    flex: row;
+    transition: 400ms;
+    
+}
+.endereco{
+    font-size: 30px;
+}
+.negrito{
+    font-weight: bold;
+}
+@media(max-width:600px)/*aqui você define a largura do dispositivo*/
+{    .class{    background: url('../img/backcel.jpg')}    
+}
