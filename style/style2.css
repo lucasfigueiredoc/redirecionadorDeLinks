@@ -96,10 +96,10 @@ td{
     }
     #textoHeader{
         padding-top: 25px;
-        font-size 10px;
+        font-size: 10px;
     }
     header{
-        font-size: 0px;
+
         display: inline-flex;
         justify-content: space-evenly;
     }
